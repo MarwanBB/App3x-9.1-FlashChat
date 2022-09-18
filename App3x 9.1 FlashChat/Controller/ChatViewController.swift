@@ -57,7 +57,8 @@ class ChatViewController: UIViewController, UITextFieldDelegate, UITableViewDele
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
         
         navigationController?.navigationBar.standardAppearance.backgroundColor = .systemBlue
-        navigationController?.navigationBar.standardAppearance.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Marker Felt", size: 30), NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.standardAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont(name: "Marker Felt", size: 30)]
+        
     }
     
     
